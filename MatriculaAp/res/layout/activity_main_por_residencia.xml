@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainPorResidencia"
+    android:background="@drawable/androidfondo" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_above="@+id/btnResidEstadis"
+         >
+
+        <TableLayout
+            android:id="@+id/Layout_Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/TextoBlanco"
+                android:text="@string/menuResidencia"
+                android:textSize="8pt"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TableRow 
+                android:id="@+id/tableRow1" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/TextoBlanco"
+                    android:layout_weight="1"
+                    android:text="@string/lblResidencia"/>
+<!--                     android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TextoBlanco"
+                    android:layout_weight="1"
+                    android:text="@string/lblMatriculados"/>
+<!--                     android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/TextoBlanco"
+                    android:layout_weight="1"
+                    android:text="@string/lblPorcentaje"/>
+<!--                     android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+            </TableRow>
+            <ListView
+                android:id="@+id/lvResidencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+   
+    </TableLayout>
+    
+    </LinearLayout>
+	
+	<TextView
+        android:id="@+id/textView11"
+        style="@style/cuadroDeTexto"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="@string/comentario"
+        android:layout_alignParentBottom="true"
+        android:textSize="5pt" />
+    
+    <Button
+        android:id="@+id/btnResidEstadis"
+        style="@style/btnEstadisticas"
+        android:onClick="ingresar"
+        android:layout_above ="@+id/textView11" 
+        android:text="@string/btnEstadisticas" />
+
+    
+
+</RelativeLayout>

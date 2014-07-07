@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     
+    <item 
+        android:title="@string/menuInicio"
+        android:id="@+id/menuInicio" 
+        android:numericShortcut="8"            
+        />
+    <item 
+        android:id="@+id/menuFovorito"
+        android:title="@string/menufavorito"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_not_important"
+        />
+    <item 
+        android:title="@string/menuCompartir"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_share"
+        android:id="@+id/menuCompartir"             
+        />
+    <item 
+        android:title="@string/menuFacultades"
+        android:id="@+id/menuFacultades"             
+        />
+    <item 
+        android:title="@string/menuEscuelas"
+        android:id="@+id/menuEscuelas"             
+        />
+    <item 
+        android:title="@string/menuResidencia"
+        android:id="@+id/menuResidencia"             
+        />
+    <item 
+        android:title="@string/menuProceso"
+        android:id="@+id/menuProceso"             
+        />
+	<item 
+        android:title="@string/menuSalir"
+        android:id="@+id/menuSalir"             
+        />
+
+</menu>

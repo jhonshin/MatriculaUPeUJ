@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="TextoBlanco">
+        <item name="android:textColor">#fe642e</item>
+        <item name="android:shadowColor">#00ccff</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">0.2pt</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+        <style name="cuadroDeTexto">
+        <item name="android:shadowColor">#00ccff</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">0.2pt</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="cuadroDeTexto.fondoAzul">
+       <item name="android:background">#060E57</item>
+       
+    </style> 
+        
+    <style name="cuadroDeTexto.fondoPlomo">
+        <item name="android:background">#A4A5AD</item>
+       
+    </style>
+    
+    <style name="cuadroDeTexto.fondoPlomoClaro">
+        <item name="android:background">#C8C9D2</item>
+    </style>
+        
+    <style name="cuadroDeTexto.fondoPlomoClaroMas">
+        <item name="android:background">#E7E8F2</item>
+    </style>  
+     
+   
+    <style name="btnEstadisticas">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#00ccff</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        
+        <item name="android:background">@drawable/fon2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20pt</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    
+
+</resources>

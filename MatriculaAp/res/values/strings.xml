@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MatriculaAp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_por_residencia">MainPorResidencia</string>
+    <string name="title_activity_main_por_periodo">MainPorPeriodo</string>
+    <string name="title_activity_main_por_periodo_estadis">MainPorPeriodoEstadis</string>
+    <string name="title_activity_main_por_residencia_estadis">MainPorResidenciaEstadis</string>
+    <string name="hello_world">las estadisticas muestran la diferencia de alumnos entre internos y externos !</string>
+    <string name="title_activity_main_por_facultades">MainPorFacultades</string>
+    <string name="title_activity_main_por_facultades_estadis">MainPorFacultadesEstadis</string>
+    <string name="title_activity_main_por_escuelas">MainPorEscuelas</string>
+    <string name="title_activity_main_por_escuelas_estadis">MainPorEscuelasEstadis</string>
+    <string name="menuInicio">Inicio</string>
+    <string name="menufavorito">Favorito</string>
+    <string name="menuFacultades">Por Facultades</string>
+    <string name="menuCompartir">Compartir</string>
+    <string name="menuEscuelas">Por Escuelas</string>
+    <string name="menuProceso">En Proceso</string>
+    <string name="menuResidencia">Por Tipo de Residencia</string>
+    <string name="menuSalir">Salir</string>
+    <string name="comentario">El ingeso de alumnos a variado segun las escuelas y segun el tiempo que va trancurriendo</string>
+    <string name="lblEnfermeria">Enfermeria</string>
+    <string name="btnEstadisticas">Estaditicas</string>
+    <string name="lblResidencia">Residencia</string>
+    <string name="lblexterno">Externo</string>
+    <string name="lblinterno">Interno</string>
+
+    <string name="escuela">ESCUELA</string>
+
+    <string name="lblIng_sistemas">Ing. Sistemas</string>
+    <string name="lblIng_ambiental">Ing. Ambiental</string>
+    <string name="lblIng_alimentos">Ing. Alimentos</string>
+    <string name="lblIng_civil">Ing. Civil</string>
+
+    <string name="lblEd_inicial">Ed. Inicial</string>
+
+    <string name="lblContabilidiad">contabilidiad</string>
+
+    <string name="lblAdministracion">Administracion</string>
+
+    <string name="lblAg">AG</string>
+
+    <string name="title_activity_main_base_menu">MainBaseMenu</string>
+    <string name="lblFacultad">Facultad</string>
+    <string name="lblFacihed">Ciencias Humanas y Educacion</string>
+    <string name="lblSiempre">Ciencias Empresariales</string>
+    <string name="lblSalud">Ciencias de la Salud</string>
+    <string name="lblFia">Ingeniaria y Arquitectura</string>
+    <string name="lblTotalMatriculados">Total Matriculados</string>
+    <string name="lblMatriculadosPorPrimeraVez">Matriculados por Primera Vez</string>
+    <string name="lblMatriculadosPresencialmente">Matriculados Presencialmente</string>
+    <string name="lblMatriculadosVirtualmente">Matriculados Virtualmente</string>
+    <string name="lblMatriculados">Matriculados</string>
+    <string name="lblEn_proceso">En Proceso</string>
+    <string name="lblPorcentaje">Porcentaje %</string>
+    <string name="title_activity_main_en_proceso">MainEnProceso</string>
+    <string name="lblGeneral">General</string>
+    <string name="lblPrecencial">Precencial</string>
+    <string name="lblVirtual">Virtual</string>
+    <string name="lblCantidad">Cantidad</string>
+    <string name="lblConfirmados">Confirmados</string>
+    <string name="lblSin_confirmar">Sin Confirmar</string>
+    <string name="lblTotal">TOTAL</string>
+    <string name="label_tweet_search_loader">cargando</string>
+    <string name="label_tweets_not_found">no hay datos</string>
+    <string name="lblEscuela">Escuela</string>
+
+</resources>
